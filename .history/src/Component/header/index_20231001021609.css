@@ -1,0 +1,43 @@
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 1.3em 10%;
+background-color: rgba(0, 0, 0, .1);
+display: flex;
+justify-content: space-between;
+z-index: 100;
+
+}
+.logo{
+
+font-size: 2rem;
+color: #ffffff;
+font-weight: 700;
+text-decoration: none;
+}
+.nav-bar a{
+color: #ffffff;
+text-decoration: none;
+font-weight: 500;
+margin-left: 2.5rem;
+font-size: 1.15rem;
+}
+.icons{
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+
+/* ====== BreakPoints =================================$ */
+
+@media screen and (min-width: 992px){
+    .header {
+        padding: 1.3rem 10%;
+    }
+    
+}
