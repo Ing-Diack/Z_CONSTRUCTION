@@ -1,0 +1,53 @@
+import React from 'react';
+import styled from 'styled-components';
+import CardAccueilLeft from '../../Component/cardAccueilLeft';
+import Title from '../../Component/Title';
+import Footer from '../../Component/footer';
+import backgroundImage from "./../../images/service1.jpg";
+
+function Services() {
+const Section = styled.section`
+  margin:0px;
+  position:absolute;
+  background-image: url(${backgroundImage});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 100vw;
+  margin-top:40px;
+  
+`
+const CardOfServicesList = styled.div`
+  background-Color:rgba(47, 79, 79, 0.774);
+` 
+const Li = styled.li`
+    font-size:1.1em;
+    font-weight:600;
+    color:#ffffff;
+    border:2px solid #dc3545;
+    border-radius:20px;
+    padding:5px;
+    margin-top:15px;
+    width:100%;
+    width:250px;
+    background-color:blue;
+
+`
+  return (
+    <main>
+    <Section>
+    <div className='contaner-fluid'>
+    <div className='row '>
+     
+    </div>
+    </div>
+   
+    </Section>
+  
+    <Footer />
+    </main>
+  )
+}
+
+export default Services
