@@ -170,9 +170,10 @@ const Img = styled.img`
         </div>
         <div className="col-12 col-sm-6 col-md-3">
         <ul className='list-inline'>
-            <ListService> <i className="fa fa-check mx-2" aria-hidden="true" style={{color:"#dc3545"}}></i> 
-              conseils et Accompagnement dans vos differents projets de construction etc...
-            </ListService>
+            <ListService> <i className="fa fa-check mx-2" aria-hidden="true" style={{color:"#dc3545"}}></i> scetiop</ListService>
+            <ListService> <i className="fa fa-check mx-2" aria-hidden="true" style={{color:"#dc3545"}}></i> Travaux civils</ListService>
+            <ListService> <i className="fa fa-check mx-2" aria-hidden="true" style={{color:"#dc3545"}}></i> Des structures en acier </ListService>
+         
           </ul>
         </div>
         </div>

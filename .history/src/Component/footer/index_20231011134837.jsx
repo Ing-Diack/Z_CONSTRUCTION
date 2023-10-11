@@ -27,15 +27,21 @@ function Footer() {
          </div>
          <div className="col-6">
            <ul className="list-inline">
-                   <li className="list-inline-item mx-4">
+                   <li className="list-inline-item mx-2">
                      <Link to="https://www.facebook.com/zangayacouba.kone.5?mibextid=ZbWKwL" target="_blank"> 
                      <i className="fa fa-facebook-official fa-md-2x"  aria-hidden="true"></i></Link>
                    </li> 
-                   <li className="list-inline-item mx-4">
+                   <li className="list-inline-item mx-2">
                      <Link to="https://instagram.com/zangayacoubakone?igshid=NGVhN2U2NjQ0Yg==" target='_blank'> 
                      <i className="fa fa-instagram fa-md-2x" aria-hidden="true"></i></Link>
                    </li> 
-                   <li className="list-inline-item mx-4">
+                   <li className="list-inline-item mx-2">
+                     <Link to=""><i className="fa fa-twitter-square fa-md-2x" aria-hidden="true"></i></Link>
+                   </li> 
+                   <li className="list-inline-item mx-2">
+                     <Link to=""> <i className="fa fa-whatsapp fa-md-2x" aria-hidden="true"></i></Link>
+                   </li> 
+                   <li className="list-inline-item mx-2">
                      <Link to="https://www.linkedin.com/in/zanga-yacouba-koné-0a5978180" target="_blank">
                      <i className="fa fa-linkedin-square fa-md-2x" aria-hidden="true"></i></Link>
                    </li> 
